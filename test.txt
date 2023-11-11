@@ -1,1 +1,4 @@
 Hi This is Text.txt file
+Hi this is msg from local machine to git hub repo 
+please upload the main.tf filel to create gcs bucket
+
