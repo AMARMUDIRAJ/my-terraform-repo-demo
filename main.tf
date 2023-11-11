@@ -1,11 +1,11 @@
 resource "google_storage_bucket" "bucket-001" {
-  name     = var.bucket_name
+  name     = dev-bucket-2023-nov-2001--002
   location = "US"
 
 }
 
 resource "google_storage_bucket_access_control" "public_rule" {
-  bucket = google_storage_bucket.bucket.name
+  bucket = dev-bucket-2023-nov-2001--002
   role   = "READER"
   entity = "allUsers"
 }
