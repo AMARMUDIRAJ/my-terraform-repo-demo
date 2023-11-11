@@ -5,7 +5,7 @@ resource "google_storage_bucket" "bucket-004" {
 }
 
 resource "google_storage_bucket" "bucket-002" {
-  name     = "-devops-bucket-2023-nov-2001--001"
+  name     = "devops-bucket-2023-nov-2001--001"
   location = "US"
   #3
 }
